@@ -1,5 +1,5 @@
 import React from 'react'
-import {Row,Col,Container,Button,Card,CardBody,CardTitle,CardText,CardImg} from 'reactstrap';
+import {Row,Col,Card,CardBody,CardImg} from 'reactstrap';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Sports from"./Images/sports.jpeg";
 import Sweatshirt from"./Images/sweatshirt.jpeg";
@@ -10,7 +10,7 @@ import  './Component_6.css'
 
 function Component_6() {
   return (
-    <div>
+    <div id='mystyle6'>
         <Row>
         <Col id='text'>
             <a>TRENDING NOW</a><br/>

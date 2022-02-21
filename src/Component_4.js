@@ -8,7 +8,7 @@ import  './Component_4.css'
 function Component_4() {
   return (
 
-    <div>
+    <div id='div-style'>
         <Row>
             <Col id='text'>
             <a>WHAT'S HOT</a><br/>

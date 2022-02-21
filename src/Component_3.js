@@ -10,7 +10,7 @@ function Component_3() {
 
 
   return (
-    <div>
+    <div id='div-style'>
          <Row>
         
         <video loop autoPlay muted>

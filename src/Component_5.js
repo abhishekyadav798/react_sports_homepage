@@ -9,13 +9,13 @@ import  './Component_5.css'
 function Component_5() {
   return (
 
-    <div>
+    <div id='mystyle'>
         <Row>
             <a id='text'>SHOPPING FOR</a>
         </Row>
         <Row>
             <Col>
-                <Card  style={{ width: '18rem' }}>
+                <Card  style={{ width: '22rem' }}>
                 <CardImg variant="top" src={Mensingle} />
                 <CardBody>
                 <a href='#' style={{ textDecoration:"none" }}>MEN</a>
@@ -24,7 +24,7 @@ function Component_5() {
               </Card>
             </Col>
             <Col>
-                <Card border="info" style={{ width: '18rem' }}>
+                <Card border="info" style={{ width: '22rem' }}>
                 <CardImg variant="top" src={Woman} />
                 <CardBody>
                 <a  href='#' style={{ textAlign:"center",textDecoration:"none" }}>WOMEN</a>
@@ -33,7 +33,7 @@ function Component_5() {
               </Card>
             </Col>
             <Col>
-                <Card  style={{ width: '18rem' }}>
+                <Card  style={{ width: '22rem' }}>
                 <CardImg variant="top" src={Kids} />
                 <CardBody>
                 <a  href='#' style={{ textDecoration:"none" }}>KIDS</a>
