@@ -10,10 +10,10 @@ function Component_2() {
 
 
   return (
-        <div >
+        <div className='img-style' >
             <Row>
             <img src={Football} />
-            <div class="text-block">
+            <div className="text-block">
             <h4>Nature</h4>
             <p>What a beautiful sunrise</p>
             </div>

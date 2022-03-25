@@ -17,10 +17,7 @@ function Component_3() {
           <source src={Video}  type="video/mp4"/>
           Your browser does not support the video tag.
         </video>
-        {/* <div class="video-text">
-    <h2 >Nature</h2>
-    <p>What a beautiful sunrise</p>
-  </div> */}
+   
         </Row>
 
       </div>

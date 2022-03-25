@@ -10,7 +10,7 @@ function Component_4() {
 
     <div id='div-style'>
         <Row>
-            <Col id='text'>
+            <Col id='text' xs={12} sm={12} lg={12}>
             <a>WHAT'S HOT</a><br/>
             <Button outline color="secondary">JACKET AND TRACKSUITS</Button>{'    '}
             <Button outline color="secondary">RUNNING SHOES</Button>{'    '}
@@ -20,23 +20,7 @@ function Component_4() {
             
             </Col>
         </Row>
-        <Row>
-            <Col>
-           
-            {/* <Card  style={{ width: '18rem' }}>
-            <CardImg variant="top" src={Football} />
-            <CardBody>
-            <CardTitle>Card Title</CardTitle>
-            <CardText>
-             Some quick example text to build on the card title and make up the bulk of
-              the card's content.
-             </CardText>
-             </CardBody>
- 
-              </Card> */}
-
-            </Col>
-        </Row>
+        
 
     </div>
   )

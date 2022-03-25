@@ -14,7 +14,7 @@ function Component_5() {
             <a id='text'>SHOPPING FOR</a>
         </Row>
         <Row>
-            <Col>
+            <Col  lg={4}>
                 <Card  style={{ width: '22rem' }}>
                 <CardImg variant="top" src={Mensingle} />
                 <CardBody>
@@ -23,16 +23,16 @@ function Component_5() {
               </CardBody>
               </Card>
             </Col>
-            <Col>
+            <Col  lg={4}>
                 <Card border="info" style={{ width: '22rem' }}>
                 <CardImg variant="top" src={Woman} />
                 <CardBody>
-                <a  href='#' style={{ textAlign:"center",textDecoration:"none" }}>WOMEN</a>
+                <a  href='#' style={{ textDecoration:"none" }}>WOMEN</a>
                 
               </CardBody>
               </Card>
             </Col>
-            <Col>
+            <Col  lg={4}>
                 <Card  style={{ width: '22rem' }}>
                 <CardImg variant="top" src={Kids} />
                 <CardBody>
